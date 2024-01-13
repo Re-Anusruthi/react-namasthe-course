@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is my first React App",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Re-Anusruthi/react-namasthe-course.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Anu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Re-Anusruthi/react-namasthe-course/issues"
+  },
+  "homepage": "https://github.com/Re-Anusruthi/react-namasthe-course#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
