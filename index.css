@@ -59,3 +59,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.filter{
+    display: flex;
+}
+
+.search{
+    margin-right: 10px;
+}
