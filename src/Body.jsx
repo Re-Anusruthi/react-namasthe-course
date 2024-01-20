@@ -27,7 +27,7 @@ const Body = () => {
                     Top Rated Restaurants</button>
     </div>
     <div className="res-main">
-    {listOfRestaurants.map(restaurant=><Restaurant key = {restaurant.info.id} resData = {restaurant}/>)}
+    {listOfRestaurants.map(restaurant => <Restaurant key = {restaurant.info.id} resData = {restaurant}/>)}
    
     </div>
     </div>)
