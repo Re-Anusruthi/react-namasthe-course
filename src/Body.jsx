@@ -1,6 +1,8 @@
 import Restaurant from "../src/Restaurant";
 import { useEffect, useState } from "react";
-import Shimmer from "../src/Shimmer"
+import Shimmer from "../src/Shimmer";
+import RestaurantMenu from "../src/RestaurantMenu";
+import { Link } from "react-router-dom";
 
 const Body = () => {
     const [listOfRestaurants, setlistOfRestaurants] = useState([]);
@@ -45,7 +47,10 @@ const Body = () => {
                     Top Rated Restaurants</button>
     </div>
     <div className="res-main">
-    {searchList.map(restaurant => <Restaurant key = {restaurant.info.id} resData = {restaurant}/>)}
+    {searchList.map(restaurant => 
+       <Link key = {restaurant.info.id} to={"/restaurants/"+restaurant.info.id}>
+          <Restaurant  resData = {restaurant}/>
+        </Link>)}
    
     </div>
     </div>)
